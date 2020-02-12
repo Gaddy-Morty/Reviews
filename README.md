@@ -6,3 +6,10 @@ How to start this component?
 3. npm run seed-database
 4. npm run react-dev
 5. npm run start
+
+CRUD
+
+getReviews
+addReview
+updateReview
+deleteReview
