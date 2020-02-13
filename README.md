@@ -6,3 +6,18 @@ How to start this component?
 3. npm run seed-database
 4. npm run react-dev
 5. npm run start
+
+
+CRUD API
+
+GET /review:property_id
+-get all reviews for specified listing
+
+POST /review:property_id
+-insert new review for specified listing
+
+DELETE /review/:id/:property_id
+-delete specific review at specified listing
+
+PUT /review/:id/:property_id
+-update a specific review at specifeid listing
