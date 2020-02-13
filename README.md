@@ -10,9 +10,9 @@ How to start this component?
 CRUD API
 
 
-GET /review:property_id -get all reviews for specified listing
+GET /review/:property_id -get all reviews for specified listing
 
-POST /review:property_id -insert new review for specified listing
+POST /review/:property_id -insert new review for specified listing
 
 DELETE /review/:id/:property_id -delete specific review at specified listing
 
