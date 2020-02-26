@@ -26,7 +26,7 @@ const getData = (callback) => {
 };
 
 const updateReview = (data, callback) => {
-  const query = 'UPDATE reviews SET ? = ? WHERE id = ? and property_id = ?;'
+  const query = 'UPDATE review SET ? = ? WHERE id = ? and property_id = ?;'
   connection.query(query,[data], (error) => {
     if (error) {
       callback(error)

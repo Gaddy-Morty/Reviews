@@ -2,3 +2,7 @@ node_modules
 bundle.js
 .eslintrc.json
 image
+sdc.pem
+newrelic.js
+newrelic_agent.log
+cassie4.csv

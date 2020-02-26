@@ -44,16 +44,16 @@ request object: {
 }
 response object: none
 
-DELETE /property/:property_id/reviews/:id -delete specific review at specified listing
+DELETE /property/:property_id/reviews/:id/user/:user_id -delete specific review at specified listing
 request object: {
     review: {
         id: int.
         property: int
     }
 }
-response object: none
 
-PUT /property/:property_id/reviews/:id -update a specific review at specified listing
+
+PUT /property/:property_id/reviews/:id/user/:user_id -update a specific review at specified listing
 request object: {
     review: {
         user: int,
@@ -68,3 +68,4 @@ request object: {
         value: int
     }
 }
+
